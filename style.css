@@ -36,9 +36,16 @@
 
   #title{
       text-align: center;
+      text-decoration:underline;
       font-size: 100px;
       margin-top: 200px;
   }
+
+  h2{
+  line-height: 1.6;
+  text-align:center;
+}
+
 
   .newsBox {
     padding-top: 50px;
@@ -51,4 +58,5 @@
   .boxPair {
       display: flex;
       justify-content: space-evenly;
+      margin-top: 50px;
   }
