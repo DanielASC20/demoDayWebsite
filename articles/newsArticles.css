@@ -1,5 +1,4 @@
 .story{
-    text-align: center;
     padding:50px;
 }
 body{
@@ -7,4 +6,10 @@ body{
 }
 .source{
     text-align: left;
+}
+h1{
+    text-align: center;
+}
+.story img{
+    padding: 50px;
 }
