@@ -1,3 +1,10 @@
 .story{
     text-align: center;
+    padding:50px;
+}
+body{
+    background-color: #8f8f8f;
+}
+.source{
+    text-align: left;
 }

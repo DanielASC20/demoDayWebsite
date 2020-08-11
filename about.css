@@ -1,3 +1,12 @@
-.text{
-    background-color:#1A1818;
-}
+h2{
+    line-height: 1.6;
+    text-align:center;
+  }
+
+  .textBox {
+    padding-top: 50px;
+    width: 1250px; 
+    height:250px;
+    background-color: turquoise;
+    text-align: center;
+  }
