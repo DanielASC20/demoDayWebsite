@@ -30,8 +30,8 @@ function draw(){
     case 3:
         background(250, 212, 135);
         text("According to the article, what caused protests to escalate last month?",10,80)
-        text("Here's answer one, maybe it's incorrect.", 90, 150);
-        text("Here's answer two, maybe it's correct.", 90, 250);
+        text("The passing of an executive order.", 90, 150);
+        text("An increase in funding towards education.", 90, 250);
         text("Increased federal agents being sent to Portland to protect", 90,350);
         text("federal property.",90,370);
         break

@@ -1,0 +1,33 @@
+.title{
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
+    margin-bottom: 200px;
+}
+
+.promote{
+    font-size: 60px;
+    text-align: center;
+}
+
+.org_pair img{
+    max-height:200px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.links{
+    display: flex;
+    background-color: slategrey;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.org_pair{
+    width: 400px;
+    text-align: center;
+}

@@ -16,8 +16,8 @@ function draw(){
         case 1:
     background(250, 212, 135);
     text("What is the name of the police chief in Seattle?",10,80)
-    text("Here's answer one, maybe it's incorrect.", 90, 150);
-    text("Here's answer two, maybe it's incorrect.", 90, 250);
+    text("David Brown", 90, 150);
+    text("Richard Ross, Jr.", 90, 250);
     text("Carmen Best", 90,350);
     break
     case 2:
@@ -31,8 +31,8 @@ function draw(){
             background(250, 212, 135);
             text("Who will replace Chief Best after she leaves?",10,80)
             text("Adrian Diaz", 90, 150);
-            text("Here's answer two, maybe it's uncorrect.", 90, 250);
-            text("Answer three, maybe not correct.", 90,350);
+            text("Dermot Shea", 90, 250);
+            text("Medaria Arradondo", 90,350);
             break
         case 4:
                 background(250, 212, 135);

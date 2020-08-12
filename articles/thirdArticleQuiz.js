@@ -30,16 +30,16 @@ function draw(){
         case 3:
             background(250, 212, 135);
             text("What was McClain doing before he was attacked by police?",10,80)
-            text("Here's answer one, maybe it's correct.", 90, 150);
-            text("Here's answer two, maybe it's uncorrect.", 90, 250);
+            text("Walking to school, staring at his phone.", 90, 150);
+            text("Going to the bank, while riding a bike.", 90, 250);
             text("Walking home, listening to music.", 90,350);
             break
         case 4:
                 background(250, 212, 135);
                 text("Where did this take place?",10,80)
                 text("Aurora, Colorado", 90, 150);
-                text("Here's answer two, maybe it's no correct.", 90, 250);
-                text("Answer three, maybe not not correct.", 90,350);
+                text("Dove Valley, Colorado", 90, 250);
+                text("Carbondale, Colorado", 90,350);
                 break
                 case 5:
                     background(250, 212, 135);
