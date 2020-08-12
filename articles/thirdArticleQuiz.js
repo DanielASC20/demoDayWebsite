@@ -15,38 +15,38 @@ function draw(){
     switch (questionNumber){
         case 1:
     background(250, 212, 135);
-    text("What is the name of the police chief in Seattle?",10,80)
-    text("Here's answer one, maybe it's incorrect.", 90, 150);
-    text("Here's answer two, maybe it's incorrect.", 90, 250);
-    text("Carmen Best", 90,350);
+    text("When was Elijah McClain arrested?",10,80)
+    text("April 3rd, 2019", 90, 150);
+    text("August 24th, 2019", 90, 250);
+    text("November 20th, 2019", 90,350);
     break
     case 2:
         background(250, 212, 135);
-        text("When did Chief Best say she will leave?",10,80)
-        text("August 26th", 90, 150);
-        text("September 2nd", 90, 250);
-        text("October 27th", 90,350);
+        text("When did McClain die?",10,80)
+        text("August 30th", 90, 150);
+        text("January 4th", 90, 250);
+        text("May 21st", 90,350);
         break
         case 3:
             background(250, 212, 135);
-            text("Who will replace Chief Best after she leaves?",10,80)
-            text("Adrian Diaz", 90, 150);
+            text("What was McClain doing before he was attacked by police?",10,80)
+            text("Here's answer one, maybe it's correct.", 90, 150);
             text("Here's answer two, maybe it's uncorrect.", 90, 250);
-            text("Answer three, maybe not correct.", 90,350);
+            text("Walking home, listening to music.", 90,350);
             break
         case 4:
                 background(250, 212, 135);
-                text("How much money did the city council decide to cut from police budget?",10,80)
-                text("$2.5 million", 90, 150);
-                text("$3 million", 90, 250);
-                text("$5 million", 90,350);
+                text("Where did this take place?",10,80)
+                text("Aurora, Colorado", 90, 150);
+                text("Here's answer two, maybe it's no correct.", 90, 250);
+                text("Answer three, maybe not not correct.", 90,350);
                 break
                 case 5:
                     background(250, 212, 135);
-                    text("When was the Capitol Hill Autonomous Zone dismantled?",10,80)
-                    text("July 16th", 90, 150);
-                    text("June 23rd", 90, 250);
-                    text("July 1st", 90,350);
+                    text("How old was McClain when he died?",10,80)
+                    text("23", 90, 150);
+                    text("20", 90, 250);
+                    text("25", 90,350);
                     break
                 case 6:
                     background(250, 212, 135);
@@ -89,7 +89,7 @@ function draw(){
 function mouseClicked(){
     if(questionNumber<6){
     if(mouseX>25&&mouseX<75&&mouseY>125&&mouseY<175&&questionNumber<6){
-        if(questionNumber == 3){
+        if(questionNumber == 2 || questionNumber == 4 || questionNumber == 5){
             correct = 'yes';
             correctAnswers++;
         }
@@ -100,7 +100,7 @@ function mouseClicked(){
         // questionNumber++;
     }
     else if(mouseX>25&&mouseX<75&&mouseY>225&&mouseY<275&&questionNumber<6){
-        if(questionNumber == 2 || questionNumber == 4){
+        if(questionNumber == 1){
             correct = 'yes';
             correctAnswers++;
         }
@@ -111,7 +111,7 @@ function mouseClicked(){
         // questionNumber++;
     }
     else if(mouseX>25&&mouseX<75&&mouseY>325&&mouseY<375&&questionNumber<6){
-        if(questionNumber == 1 || questionNumber == 5){
+        if(questionNumber == 3){
             correct = 'yes';
             correctAnswers++;
         }

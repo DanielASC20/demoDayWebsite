@@ -45,7 +45,7 @@
   .newsBox {
     padding-top: 50px;
     width: 500px; 
-    height:500px;
+    height:510px;
     background-color: turquoise;
     text-align: center;
   }
@@ -54,4 +54,9 @@
       display: flex;
       justify-content: space-evenly;
       margin-top: 50px;
+  }
+
+  .newsBox img{
+    max-width: 400px;
+    max-height: 300px;
   }
